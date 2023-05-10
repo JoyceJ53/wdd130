@@ -1,100 +1,21 @@
-#content {
-    max-width: 1600px; 
-    margin: 0 auto;
+h1{
+    font:2em; 
+    color: orange;
 }
-nav a {
-    text-align: center;
-    color: rgb(38, 50, 103);
-    text-decoration: none;
+.p_one{
+    margin-top:20; 
+    margin-bottom:50;
 }
-nav a:hover {
-    background-color: rgb(141, 173, 171);
-    color: white;
+.p_two{
+    text-align: 
+    center;font:3em; 
+    background-color:rgb(173, 184, 226);
 }
-#hero-msg h1 {
-    text-align: center;
-}
-#hero-msg h4 {
-    text-align: center;
-}
-.button-box {
-    text-align: center;
-}
-main section {
-    text-align: center;
-}
-#background {
-    height: 725px;
-    background-color: rgb(210, 255, 240);
-}
-body {
-    background-color: rgb(153, 189, 186);
-}
-header {
-    background-color: rgb(243, 249, 255);
-}
-.book {
-    color: rgb(23, 62, 71);
-    background-color: rgb(198, 216, 217);
-    text-decoration: none;
-    font-size: 1.2em;
-}
-.book:hover {
-    background-color: rgb(113, 163, 165);
-    color: white;
-}
-.join {
-    color: rgb(48, 108, 110);
-    background-color: rgb(198, 216, 217);
-    text-decoration: none;
-    font-size: 1.2em;
-}
-.join:hover {
-    background-color: rgb(141, 173, 171);
-    color: white;
-    text-decoration: underline;
-}
-.msg {
-    background-color: rgb(243, 249, 255);
-}
-.msg h2 {
-    color: rgb(48, 108, 110);
-}
-.msg p {
-    color: rgb(48, 108, 110);
-}
-footer {
-    background-color: rgb(190, 217, 240);
-    color: rgb(48, 80, 110);
-}
-footer a {
-    color: rgb(48, 80, 110);
-    text-decoration: none;
-    font-size: 1.2em;
-}
-footer a:hover {
-    background-color: rgb(48, 80, 110);
-    color: white;
-}
-footer p {
-    font-size: 1.2em;
-}
-footer p a:hover {
-    text-decoration: underline;
-}
-.home-title {
-    color: rgb(33, 76, 77);
-}
-h4 {
-    color: rgb(33, 76, 77);
-}
-.logo {
-    width: 80px;
-}
-
-.icon {
-    width: 80px;
-}
-.spacer{
-    height: 15px
-}
+img{float: right; 
+    max-width: 350px; 
+    padding: 15px; 
+    margin: 50px; 
+    background: gray; 
+    border: 2px solid black; 
+    border-radius: 30px; 
+    font: purple;}

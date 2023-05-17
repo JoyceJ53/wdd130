@@ -1,0 +1,36 @@
+<li> list item
+<ol> ordered list - aka: numbered list
+<ul> unordered list - aka: bullet point list
+<title> -inside the head -what shows when you google
+
+
+<div> - div tag		         	 /\
+- what they used to use instead of those |
+- they are still used - but probably don't
+
+
+<!--This is a comment-->
+<!--Use control + slash to create a comment-->
+
+
+<main> Main is the unique stuff on a page
+<header>
+<footer> headers and footers are the same on every page of the website
+
+
+<section> - sections require a heading
+
+
+Attributes = ______ = '' or ________ = ""
+
+example:
+<a href= "https://google.com"> </a>     		- this will take you to google
+<a href= "mega-evolve.html> </a>        		- this will take you to an html thing in the same VS file
+<a href= "https://google.com" target='_blank'> </a>	- this will take you to google in a new tab
+
+href stands for hypertext reference
+
+
+
+<img src="COPY PASTE A PHOTO INTO WDD130 FOLDER AND ADD INTO HERE" alt="My picture">
+<img style="width:500px" src="" alt="My picture">	- this tells you how to change the size (but dont use this in real life for reasons later explained)

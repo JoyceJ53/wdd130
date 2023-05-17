@@ -1,0 +1,28 @@
+body {
+    background-color: rgb(67, 91, 113);
+}
+h1 {
+    background-color: rgb(112, 100, 124);
+    color: white;
+    padding:10px 20px;
+    margin:20px;
+    border: 5px dotted white;
+    /* border-radius makes the border's corners rounded */
+    border-radius: 100px;
+    text-align: center;
+}
+#smaller {
+    font-size:1.3em;
+    background-color: rgb(92, 80, 103);
+}
+
+.highlight{
+    background-color: rgb(163, 176, 198);
+}
+h2{
+    background-color: purple;
+}
+.second{
+    background-color: #FFFFFF;
+}
+

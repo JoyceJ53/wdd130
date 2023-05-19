@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Permanent+Marker&family=Shadows+Into+Light+Two&family=Wix+Madefor+Display&display=swap');
+
 #content {
     max-width: 1600px; 
     margin: 0 auto;
@@ -6,16 +8,22 @@ nav a {
     text-align: center;
     color: rgb(38, 50, 103);
     text-decoration: none;
+    padding: 35px;
 }
 nav a:hover {
     background-color: rgb(141, 173, 171);
     color: white;
+}
+#hero-img{
+    width: 100%;
+    margin: 0;
 }
 #hero-msg h1 {
     text-align: center;
 }
 #hero-msg h4 {
     text-align: center;
+    font-family: 'Confortaa', 'Wix Madefor Display';
 }
 .button-box {
     text-align: center;
@@ -23,49 +31,79 @@ nav a:hover {
 main section {
     text-align: center;
 }
+main section img {
+    box-sizing: border-box;
+}
 #background {
     height: 725px;
     background-color: rgb(210, 255, 240);
 }
 body {
     background-color: rgb(153, 189, 186);
+    font-family: 'Shadows Into Light Two', 'Permanent Marker' ;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 header {
     background-color: rgb(243, 249, 255);
+    font-family: 'Comfortaa', 'Wix Madefor Display';
 }
 .book {
     color: rgb(23, 62, 71);
     background-color: rgb(198, 216, 217);
     text-decoration: none;
-    font-size: 1.2em;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px
 }
 .book:hover {
     background-color: rgb(113, 163, 165);
     color: white;
 }
+.book, .join {
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
 .join {
     color: rgb(48, 108, 110);
     background-color: rgb(198, 216, 217);
     text-decoration: none;
-    font-size: 1.2em;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
 }
 .join:hover {
     background-color: rgb(141, 173, 171);
     color: white;
     text-decoration: underline;
+    padding: 15px 30px
 }
 .msg {
     background-color: rgb(243, 249, 255);
+    line-height: 1.5em;
+    padding: 35px;
 }
 .msg h2 {
     color: rgb(48, 108, 110);
 }
+h2 {
+    margin: 0;
+}
 .msg p {
     color: rgb(48, 108, 110);
+    font-family: 'Comfortaa', 'Wix Madefor Display';
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 footer {
     background-color: rgb(190, 217, 240);
     color: rgb(48, 80, 110);
+    font-family: 'Wix Madefor Display', 'Comfortaa';
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer a {
     color: rgb(48, 80, 110);
@@ -84,6 +122,9 @@ footer p a:hover {
 }
 .home-title {
     color: rgb(33, 76, 77);
+    font-family: 'Comfortaa', 'Wix Madefor Display'; 
+    font-size: 2em;
+    margin-top: 10px;
 }
 h4 {
     color: rgb(33, 76, 77);
@@ -91,10 +132,22 @@ h4 {
 .logo {
     width: 80px;
 }
-
+#logo_link {
+    padding-top: 5px;
+}
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
-.spacer{
-    height: 15px
+.spacer {
+    height: 15px;
+}
+footer .social img {
+    padding-top: 15px;
+}
+.card-img {
+    border: 10px solid rgb(33, 76, 77);
+}
+.river-card, .camping-card, .rapid-card{
+    margin: 200px 0;
 }

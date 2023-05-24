@@ -1,0 +1,133 @@
+main {
+    grid-template-columns: 1fr 600px 1fr;
+    grid-template-rows: 7 * 1fr;
+    display:grid;
+    background-color: white;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.notifications{
+    color: black;
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+.kate{
+    grid-row: 2/3;
+    font-size: 2em;
+    color: rgb(70, 227, 255);
+    grid-column: 2/3;
+    grid-row: 2/3;
+    z-index: 0;
+}
+.text_1{
+    font-size: 1em;
+    color: gray;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    margin-top: 60px;
+}
+.text_2{
+    font-size: 1em;
+    color: lightgrey;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    margin-top: 75px;
+}
+.mins_1{
+    font-size:.5em
+    color lightgrey;
+    grid-row: 1;
+    grid-column: 3/4;
+}
+.brandon{
+    grid-row: 3/4;
+    font-size: 2em;
+    color:rgb(70, 227, 255);
+    grid-column: 2/3;
+    grid-row: 3/4;
+    z-index: 0;
+}
+.text_3{
+    font-size: 1em;
+    color:lightgrey;
+    grid-column: 2/3;
+    grid-row: 3/4;
+    margin-top: 60px;
+}
+.mins_2{
+    font-size: .5em;
+    color:lightgrey;
+    grid-column: 3/4;
+}
+.dave{
+    grid-row: 4/5;
+    font-size: 2em;
+    color:rgb(70, 227, 255);
+    grid-column: 2/3;
+    grid-row: 4/5;
+    z-index: 0;
+}
+.text_4{
+    font-size: 1em;
+    color:lightgrey;
+    grid-column: 2/3;
+    grid-row: 4/5;
+    margin-top: 60px;
+}
+.mins_3{
+    font-size: .5em;
+    color:lightgrey;
+    grid-column: 3/4;
+}
+.anna{
+    grid-row: 5/6;
+    color:rgb(70, 227, 255);
+    grid-column: 2/3;
+    grid-row: 6/7;
+    z-index: 0;
+}
+.text_6{
+    font-size: 1em;
+    color:lightgrey;
+    grid-column: 2/3;
+    margin-top: 60px;
+}
+.text_7{
+    font-size: 1.5em;
+    grid-column: 2/3;
+    grid-row: 6/7;
+    margin-top: 60px;
+}
+.mins_5{
+    font-size: .5em;
+    color:lightgrey;
+    grid-column: 3/4;
+}
+.kate_2{
+    grid-row: 6/7;
+    color: rgb(70, 227, 255);
+    grid-column: 2/3;
+    grid-row: 5/6;
+    z-index: 0;
+}
+.text_5{
+    font-size: 1em;
+    color:lightgrey;
+    grid-column: 2/3;
+    grid-row: 5/6;
+    margin-top: 60px;
+}
+.mins_4{
+    font-size: .5em;
+    color:lightgrey;
+    grid-column: 3/4;
+}
+.text_8{
+    font-size: 2em;
+    color:rgb(70, 227, 255);
+    grid-row:7/8;
+    grid-column: 2/3;
+    text-align: center;
+    margin-top: 60px;
+}
+border-radius: ;

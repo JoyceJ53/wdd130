@@ -1,0 +1,15 @@
+.color {
+    background-color: pink;
+}
+
+@media screen and (min-width: 582px) {
+    .color {
+        background-color: seagreen;
+    }
+}
+
+@media screen and (min-width: 803px) {
+    .color {
+        background-color: blue;
+    }
+}

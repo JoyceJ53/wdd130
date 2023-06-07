@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.container{
+    display:grid;
+    grid-template-columns: 1fr, 1fr;
+    grid-template-rows: repeat(6, 100px);
+    font-family: "Poppins";
+    margin: 100px;
+    width: 700px;
+}
+.title{
+    color: #666666;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-left: 50px;
+    text-align: center;
+}
+.text{
+    color: #666666;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    margin-left: 30px;
+    text-align: center;
+    font-size: 18px;
+}
+.email_box{
+    background-color: white;
+    border: 2px solid #e2e2e2;
+    border-radius: 10px;
+    width: 400px;
+    height: 50px;
+    grid-column: 2/3;
+    grid-row: 3/4;
+    margin: auto;
+}
+.email{
+    color: #9e9e9e;
+    grid-column: 2/3;
+    grid-row: 3/4;
+    margin: 10px;
+}
+.name_box{
+    background-color: white;
+    border: 2px solid #e2e2e2;
+    border-radius: 10px;
+    width: 400px;
+    height: 50px;
+    grid-column: 2/3;
+    grid-row: 4/5;
+    margin: auto;
+}
+.name{
+    color: #9e9e9e;
+    grid-column: 2/3;
+    grid-row: 4/5;
+    margin: 10px;
+}
+.checkbox{
+    background-color: white;
+    border: 2px solid #d4d4d4;
+    border-radius: 5px;
+    box-shadow: 2px 2px 3px #d4d4d4;
+    grid-column: 2/3;
+    grid-row: 5/6;
+    width: 15px;
+    height: 15px;
+    margin-left: 10px;
+    margin-top: 13px;
+}
+.checkbox_text{
+    color: #666666;
+    grid-column: 2/3;
+    grid-row: 5/6;
+    font-size: 13px;
+    text-align: center;
+    margin-right: 150px;
+}
+.subscribe_button{
+    background-color: #e39968;
+    grid-column: 2/3;
+    grid-row: 5/6;
+    border: 2px #e2e2e2;
+    border-radius: 10px;
+    width: 150px;
+    text-align: center;
+    height: 50px;
+    margin: auto;
+    margin-top: 50px;
+}
+.subscribe{
+    color: white;
+    grid-column: 2/3;
+    grid-row: 5/6;
+    margin: 10px;
+}
+.image{
+    grid-column: 1/2;
+    grid-row: 1/2;
+}

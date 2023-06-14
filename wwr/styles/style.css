@@ -7,7 +7,7 @@
 nav{
     display:flex;
     justify-content: space-around;
-    text-shadow: 5px 5px 5px black;
+    text-shadow: 2px 2px 2px black;
 }
 nav a {
     text-align: center;
@@ -39,7 +39,8 @@ nav a:hover {
 #hero-msg h4 {
     text-align: center;
     font-family: 'Confortaa', 'Wix Madefor Display';
-    color: white;
+    color: rgb(36, 64, 92);
+    text-shadow: 5px 5px 8px rgb(94, 114, 158);
 }
 #hero-msg {
     grid-column: 2/3;
@@ -121,10 +122,19 @@ header {
 .msg h2 {
     color: rgb(48, 108, 110);
 }
+.msg_rates h2 {
+    color: rgb(48, 108, 110);
+}
 h2 {
     margin: 0;
 }
 .msg p {
+    color: rgb(48, 108, 110);
+    font-family: 'Comfortaa', 'Wix Madefor Display';
+    font-size: .8em;
+    padding-bottom: 15px;
+}
+.msg_rates p {
     color: rgb(48, 108, 110);
     font-family: 'Comfortaa', 'Wix Madefor Display';
     font-size: .8em;
@@ -225,6 +235,69 @@ footer .social img {
     grid-column: 8/10;
     grid-row: 2/3;
 }
+.rates_grid{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
+.rates_grid h1{
+    grid-column: 1/11;
+    text-align: center;
+}
+.gc_three_night{
+    grid-column: 2/5;
+    grid-row: 2/3;
+    margin-top: 50px;
+}
+.gc_six_night{
+    grid-column: 7/10;
+    grid-row: 2/3;
+    margin-top: 50px;
+}
+.salmon_river{
+    grid-column: 2/5;
+    grid-row: 3/4;
+    margin: 50px;
+}
+.desolation{
+    grid-column: 7/10;
+    grid-row: 3/4;
+    margin: 50px;
+}
+.home-title-rates{
+    color: rgb(205, 254, 255);
+    font-family: 'Comfortaa', 'Wix Madefor Display'; 
+    font-size: 2em;
+    margin-top: 38px;
+    margin-bottom: 5px;
+    text-shadow: 5px 5px 5px black;
+}
+.rates_title{
+    color: rgb(36, 69, 70);
+    font-family: 'Comfortaa', 'Wix Madefor Display'; 
+    font-size: 2em;
+    margin-top: 35px;
+    margin-bottom: 20px;
+    text-shadow: 5px 5px 8px rgb(30, 58, 59);
+}
+.rates_text{
+    color:rgb(0, 0, 0);
+}
+.smile{
+    margin: 100px 0px;
+    grid-column: 2/7;
+    grid-row: 5/8;
+    box-shadow: 5px 5px 10px rgb(123, 154, 166);
+    width: 100%;
+}
+.msg_rates{
+    background-color: rgb(243, 249, 255);
+    line-height: 1.5em;
+    padding: 35px;
+    margin: 50px 0px;
+    grid-column: 6/10;
+    grid-row: 6/7;
+    box-shadow: 5px 5px 10px rgb(175, 210, 224);
+}
 @media screen and (max-width: 900px) {
     header {
         background-color: rgb(62, 87, 84);
@@ -265,7 +338,44 @@ footer .social img {
         display: block;
         margin: 0 auto;
     }
+    .smile{
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+        grid-row: 6/7;
+        grid-column: 2/10;
+        border: 10px solid rgb(23, 62, 71);
+    }
+    .msg_rates{
+        background-color: rgb(243, 249, 255);
+        line-height: 1.5em;
+        padding: 35px;
+        margin: 50px 0px;
+        grid-column: 2/10;
+        grid-row: 7/8;
+        box-shadow: 5px 5px 10px rgb(175, 210, 224);
+    }
     footer {
         margin-top: 25px;
+    }
+    .gc_three_night{
+        grid-column: 2/10;
+        grid-row: 2/3;
+        margin-top: 50px;
+    }
+    .gc_six_night{
+        grid-column: 2/10;
+        grid-row: 3/4;
+        margin-top: 50px;
+    }
+    .salmon_river{
+        grid-column: 2/10;
+        grid-row: 4/5;
+        margin: 50px;
+    }
+    .desolation{
+        grid-column: 2/10;
+        grid-row: 5/6;
+        margin: 50px;
     }
 }

@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@500&display=swap');
 
+/* Brandon Andsbergs, Heber Uchytil */
+
 body{
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;

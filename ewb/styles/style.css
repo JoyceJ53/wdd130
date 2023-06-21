@@ -57,19 +57,33 @@
 /* Title Image and Text */
 .home_image{
     text-align: center;
-    grid-template-rows: 420px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 460px;
+}
+.home_title{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    z-index: 1;
+    margin-top: 75px;
+    font-size: 40px;
+    color: #512638;
+}
+.home_subtext{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    z-index: 1;
+    margin-top: 150px;
+    font-size: 25px;
+    color: #512638;
 }
 .h_image_box{
     width:100%;
-    opacity: 0.7;
+    opacity: 0.5;
+    grid-column: 1/2;
     grid-row: 1/2;
 }
-.home_title{
-    grid-row: 1/2;
-}
-.home_subtext{
-    grid-row: 1/2;
-}
+
 
 
 
@@ -77,23 +91,25 @@
 /* Cake and Dessert Boxes */
 .home_grid{
     display: grid;
-    grid-template-columns: 1fr, 1fr;
+    grid-template-columns: 1fr 1fr;
     text-align: center;
 }
 .cakes_img{
     width:200px;
+    border: 10px solid white;
 }
 .desserts_img{
     width:200px;
+    border: 10px solid white;
 }
 .aboutus_img{
-    width:200px;
+    width:300px;
 }
 
 
 /* Cake Box */
 .cakes_background{
-    background-color: aliceblue;
+    background-color: #8E4162;
     grid-column: 1/2;
     text-align: center;
     margin: 50px;
@@ -105,9 +121,29 @@
 
 /* Dessert Box */
 .desserts_background{
-    background-color: aliceblue;
+    background-color: #8E4162;
     grid-column: 2/3;
     text-align: center;
     margin: 50px;
     padding: 50px;
+}
+
+
+
+/* Cake Subpage */
+.cake_pricing_img{
+    width: 200px;
+}
+.cake_05_image{
+    width: 200px;
+}
+
+
+
+/* Dessert Subpage */
+.dessert_07_image{
+    width: 200px;
+}
+.dessert_08_image{
+    width: 200px;
 }

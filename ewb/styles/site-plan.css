@@ -8,7 +8,7 @@ Fonts are separated by a | */
   --primary-color: #8E4162   ;
   --secondary-color: #ECDCB0 ;
   --accent1-color: #1C1D21;
-  --accent2-color: #C6E0FF;
+  --accent2-color: aliceblue;
   
   /* change the values below to your chosen font(s) */
   --heading-font: "Geologica:wgth@300";

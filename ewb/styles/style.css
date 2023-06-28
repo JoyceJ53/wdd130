@@ -214,6 +214,7 @@ h2, h3, h4, h5{
     border: 15px solid  #d3c191;
     border-radius: 10px;
     padding: 10px;
+    height: 250px;
 }
 .aboutus_title_01{
     color: #4e4017;
@@ -223,7 +224,7 @@ h2, h3, h4, h5{
     font-size: 20px;
     padding: 5px;
     width: 700px;
-    margin-left: 263px;
+    margin: 0 auto;
 }
 
 
@@ -265,7 +266,7 @@ h2, h3, h4, h5{
     margin-top: 23px;
     grid-column: 1/2;
     grid-row: 4/5;
-    margin-left: 289px;
+    margin-left: 360px;
     width: 350px;
     z-index: 1;
     box-shadow: 5px 5px 5px #a5bbd6;
@@ -752,6 +753,7 @@ footer .logo{
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 200px;
+        margin-bottom: 30px;
     }
     .home_title{
         grid-column: 1/2;
@@ -777,7 +779,7 @@ footer .logo{
     .home_grid{
         display: grid;
         grid-template-columns: 650px;
-        text-align: center;
+        justify-content: center;
     }
     .button_box{
         background-color: white;
@@ -875,6 +877,7 @@ footer .logo{
         border: 15px solid  #d3c191;
         border-radius: 10px;
         padding: 10px;
+        height: 300px;
     }
     .aboutus_title_01{
         color: #4e4017;

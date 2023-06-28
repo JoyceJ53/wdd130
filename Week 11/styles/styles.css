@@ -1,3 +1,8 @@
+body{
+    width: 960px; 
+    margin: 0 auto;
+    margin-top: 20px;
+}
 .home-grid{
     display: grid;
     grid-template-columns: 470px 470px;

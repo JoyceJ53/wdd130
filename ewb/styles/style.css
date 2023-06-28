@@ -1,11 +1,16 @@
-@import url();
-/* ADD IN A FONT SIMILAR TO THE ONE IN THE LOGO */
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@100;300;400&family=Pacifico&family=Roboto+Slab&display=swap');
 
 
 
 
 
 /* Header */
+body{
+    font-family: 'Geologica';
+}
+h2, h3, h4, h5{
+    font-family: 'Roboto Slab';
+}
 .nav_bar{
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -18,12 +23,14 @@
     margin-top: 30px;
     color: white;
     font-size: 30px;
+    text-decoration: none;
 }
 .nav_cakes{
     grid-column: 2/3;
     margin-top: 30px;
     color: white;
     font-size: 30px;
+    text-decoration: none;
 }
 #logo_link{
     grid-column: 3/4;
@@ -38,13 +45,19 @@
     margin-top: 30px;
     color: white;
     font-size: 30px;
+    text-decoration: none;
 }
 .nav_contactus{
     grid-column: 5/6;
     margin-top: 30px;
     color: white;
     font-size: 30px;
+    text-decoration: none;
 }
+.nav_home:hover, .nav_cakes:hover, .nav_desserts:hover, .nav_contactus:hover{
+    color: #C6E0FF;
+}
+
 
 
 
@@ -52,6 +65,7 @@
 
 
 /* Body: */
+
 
 
 /* Title Image and Text */
@@ -66,7 +80,7 @@
     grid-row: 1/2;
     z-index: 1;
     margin-top: 75px;
-    font-size: 40px;
+    font-size: 58px;
     color: #512638;
 }
 .home_subtext{
@@ -74,7 +88,7 @@
     grid-row: 1/2;
     z-index: 1;
     margin-top: 150px;
-    font-size: 25px;
+    font-size: 34px;
     color: #512638;
 }
 .h_image_box{
@@ -94,43 +108,272 @@
     grid-template-columns: 1fr 1fr;
     text-align: center;
 }
-.cakes_img{
-    width:200px;
-    border: 10px solid white;
-}
-.desserts_img{
-    width:200px;
-    border: 10px solid white;
-}
 .aboutus_img{
     width:300px;
 }
+.button_box{
+    background-color: white;
+    text-align: center;
+    width: 115px;
+    height: 50px;
+    margin: 0 auto;
+    border-radius: 5px;
+    font-size: 20px;
+    padding-top: 10px;
+    line-height: 2;
+}
+.button_box:hover{
+    background-color: #C6E0FF;
+}
+
+
 
 
 /* Cake Box */
+.cakes_img{
+    width:200px;
+    border: 15px solid white;
+}
 .cakes_background{
     background-color: #8E4162;
     grid-column: 1/2;
+    grid-row: 1/2;
     text-align: center;
     margin: 50px;
     padding: 50px;
+    border-radius: 25px;
+    border: #57293c solid 10px;
+}
+.cakes_summarytext{
+    font-size: 50px;
+    color: white;
+    margin: 10px;
+}
+.cake_text{
+    color: rgb(228, 207, 207);
+}
+.cakes_button{
+    text-decoration: none;
+    color: #512638;
+}
+.cakes_button:hover{
+    color: #8e4966;
 }
 
 
 
 
 /* Dessert Box */
+.desserts_img{
+    width:200px;
+    border: 15px solid white;
+}
 .desserts_background{
     background-color: #8E4162;
     grid-column: 2/3;
+    grid-row: 1/2;
     text-align: center;
     margin: 50px;
     padding: 50px;
+    border-radius: 25px;
+    border: #57293c solid 10px;
+}
+.desserts_summarytext{
+    font-size: 50px;
+    color: white;
+    margin: 10px;
+}
+.dessert_text{
+    color: rgb(228, 207, 207);
+}
+.desserts_button{
+    text-decoration: none;
+    color: #512638;
+}
+.desserts_button:hover{
+    color: #8e4966;
 }
 
 
 
-/* Cake Subpage */
+/* About Us Home Section */
+.aboutus{
+    background-color: #ECDCB0;
+    grid-column: 1/3;
+    margin: 25px;
+    margin-bottom: 80px;
+    border: 15px solid  #d3c191;
+    border-radius: 10px;
+    padding: 10px;
+}
+.aboutus_title_01{
+    color: #4e4017;
+}
+.aboutus_subtext{
+    color: rgb(86, 71, 25);
+    font-size: 20px;
+    padding: 5px;
+    width: 700px;
+    margin-left: 263px;
+}
+
+
+
+
+/* About Us Bottom Box */
+.aboutus_text_box{
+    background-color: #C6E0FF;
+    grid-column: 1/3;
+    grid-row: 4/5;
+    height: 400px;
+    width: 882px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    box-shadow: 10px 10px 10px #a5bbd6;
+}
+.aboutus_title_02{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-right: 30px;
+    padding: 40px;
+    font-size: 30px;
+}
+.aboutus_text{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin: 0 auto;
+    margin-top: 98px;
+    margin-right: 30px;
+    padding: 40px;
+    font-size: 23px;
+}
+.aboutus_img{
+    margin: 0 auto;
+    margin-top: 23px;
+    grid-column: 1/2;
+    margin-left: auto;
+    width: 350px;
+    z-index: 1;
+    box-shadow: 5px 5px 5px #a5bbd6;
+}
+
+
+
+
+
+
+
+/* Footer */
+footer{
+    background-color: #8E4162;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 120px 120px 120px;
+    grid-template-rows: 100px 100px;
+    margin-top: 50px;
+    padding: 20px;
+}
+footer .logo{
+    grid-column: 1/2;
+    width: 180px;
+    margin: 0 auto;
+}
+.footer_text{
+    grid-column: 2/4;
+    font-size: 23px;
+    color: white;
+    background-color: #512638;
+    text-align: center;
+    padding-top: 12px;
+    border-radius: 10px;
+    width: 550px;
+}
+.button_box_siteplan{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    background-color: white;
+    text-align: center;
+    width: 115px;
+    height: 50px;
+    margin: 94px;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-size: 20px;
+    padding-top: 10px;
+    line-height: 2;
+}
+.button_box_siteplan:hover{
+    background-color: #C6E0FF;
+}
+.button_box_contactus{
+    grid-column: 3/4;
+    grid-row: 2/3;
+    background-color: white;
+    text-align: center;
+    width: 115px;
+    height: 50px;
+    margin: 23px;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-size: 20px;
+    padding-top: 10px;
+    line-height: 2;
+}
+.button_box_contactus:hover{
+    background-color: #C6E0FF;
+}
+.siteplan_link{
+    text-decoration: none;
+    color: #512638;
+}
+.footer_contactus{
+    text-decoration: none;
+    color: #512638;
+}
+.facebook{
+    grid-column: 4/5;
+    text-align: center;
+    margin-top: 75px;
+}
+.facebook_image{
+    border: #5126387f solid 5px;
+}
+.facebook_image:hover{
+    border: #C6E0FF solid 5px;
+}
+.twitter{
+    grid-column: 5/6;
+    text-align: center;
+    margin-top: 75px;
+}
+.twitter_image{
+    border: #5126387f solid 5px;
+}
+.twitter_image:hover{
+    border: #C6E0FF solid 5px;
+}
+.instagram{
+    grid-column: 6/7;
+    text-align: center;
+    margin-top: 75px;
+}
+.instagram_image{
+    border: #5126387f solid 5px;
+}
+.instagram_image:hover{
+    border: #C6E0FF solid 5px;
+}
+
+
+
+
+
+
+
+/* Cake Subpage Specifics */
 .cake_pricing_img{
     width: 200px;
 }
@@ -140,10 +383,300 @@
 
 
 
-/* Dessert Subpage */
+
+
+
+
+/* Dessert Subpage Specifics */
+img{
+    width: 200px;
+    margin-right: 0 auto;
+}
 .dessert_07_image{
     width: 200px;
 }
 .dessert_08_image{
     width: 200px;
 }
+
+
+
+
+/* Phone Screen */
+@media screen and (max-width: 900px) {
+
+
+
+    /* Header */
+    body{
+        font-family: 'Geologica';
+    }
+    h2, h3, h4, h5{
+        font-family: 'Roboto Slab';
+    }
+    .nav_bar{
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        text-align: center;
+        background-color: #8E4162;
+        padding: 15px;
+    }
+    .nav_home{
+        grid-column: 1/2;
+        margin-top: 30px;
+        color: white;
+        font-size: 23px;
+        text-decoration: none;
+    }
+    .nav_cakes{
+        grid-column: 2/3;
+        margin-top: 30px;
+        color: white;
+        font-size: 23px;
+        text-decoration: none;
+    }
+    #logo_link{
+        grid-column: 3/4;
+    }
+    .logo{
+        grid-column: 3/4;
+        border-radius: 50px;
+        width:100px;
+    }
+    .nav_desserts{
+        grid-column: 4/5;
+        margin-top: 30px;
+        color: white;
+        font-size: 23px;
+        text-decoration: none;
+    }
+    .nav_contactus{
+        grid-column: 5/6;
+        margin-top: 30px;
+        color: white;
+        font-size: 23px;
+        text-decoration: none;
+    }
+    .nav_home:hover, .nav_cakes:hover, .nav_desserts:hover, .nav_contactus:hover{
+        color: #C6E0FF;
+    }
+
+
+    /* Title Image and Text */
+    .home_image{
+        text-align: center;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 200px;
+    }
+    .home_title{
+        grid-column: 1/2;
+        grid-row: 1/2;
+        z-index: 1;
+        margin-top: 75px;
+        font-size: 40px;
+        color: #512638;
+    }
+    .home_subtext{
+        grid-column: 1/2;
+        grid-row: 1/2;
+        z-index: 1;
+        margin-top: 150px;
+        font-size: 23px;
+        color: #512638;
+    }
+
+
+
+
+        /* Cake and Dessert Boxes */
+    .home_grid{
+        display: grid;
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    .button_box{
+        background-color: white;
+        text-align: center;
+        width: 115px;
+        height: 50px;
+        margin: 0 auto;
+        border-radius: 5px;
+        font-size: 20px;
+        padding-top: 10px;
+        line-height: 2;
+    }
+    .button_box:hover{
+        background-color: #C6E0FF;
+    }
+
+
+
+
+    /* Cake Box */
+    .cakes_img{ 
+        width: 300px;
+        border: 15px solid white;
+    }
+    .cakes_background{
+        background-color: #8E4162;
+        grid-column: 1/2;
+        grid-row: 1/2;
+        text-align: center;
+        margin: 50px;
+        padding: 10px 50px 30px 50px;
+        border-radius: 25px;
+        border: #57293c solid 10px;
+    }
+    .cakes_summarytext{
+        font-size: 50px;
+        color: white;
+        margin-bottom: 10px;
+    }
+    .cake_text{
+        color: rgb(228, 207, 207);
+    }
+    .cakes_button{
+        text-decoration: none;
+        color: #512638;
+    }
+    .cakes_button:hover{
+        color: #8e4966;
+    }
+
+
+
+
+    /* Dessert Box */
+    .desserts_img{
+        width:300px;
+        border: 15px solid white;
+    }
+    .desserts_background{
+        background-color: #8E4162;
+        grid-column: 1/2;
+        grid-row: 2/3;
+        text-align: center;
+        margin: 50px;
+        padding: 10px 50px 30px 50px;
+        border-radius: 25px;
+        border: #57293c solid 10px;
+    }
+    .desserts_summarytext{
+        font-size: 50px;
+        color: white;
+        margin: 10px;
+    }
+    .dessert_text{
+        color: rgb(228, 207, 207);
+    }
+    .desserts_button{
+        text-decoration: none;
+        color: #512638;
+    }
+    .desserts_button:hover{
+        color: #8e4966;
+    }
+
+
+
+
+
+    /* About Us Home Section */
+    .aboutus{
+        background-color: #ECDCB0;
+        grid-column: 1/2;
+        margin: 20px;
+        padding: 10px;
+        border: 15px solid  #d3c191;
+        border-radius: 10px;
+    }
+
+
+
+
+    /* About Us Bottom Box */
+    .aboutus_text_box{
+        background-color: #C6E0FF;
+        grid-column: 1/2;
+        height: 400px;
+        grid-row: 5/7;
+        margin: 15px;
+        border: 10px solid rgb(188, 209, 238);
+        padding: 10px
+    }
+    .aboutus_img{
+        grid-column: 1/2;
+        margin: 0 auto; 
+        margin-top: 23px;
+        width: 200px;
+        grid-row: 4/5;
+        z-index: 1;
+        border: 10px solid rgba(71, 43, 19, 0.373);
+    }
+    .aboutus_title_02{
+        color:rgb(64, 84, 99);
+    }
+    .aboutus_text{
+        color:rgb(71, 86, 105);
+    }
+
+    /* Footer */
+    footer{
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: 100px 100px;
+        margin-top: 50px;
+        padding: 20px;
+    }
+    footer .logo{
+        grid-column: 1/2;
+    }
+    .footer_text{
+        grid-column: 2/4;
+    }
+    .button_box_siteplan{
+        grid-column: 2/3;
+        grid-row: 2/3;
+        background-color: white;
+        text-align: center;
+        width: 115px;
+        height: 50px;
+        margin: 0 auto;
+        border-radius: 5px;
+        font-size: 20px;
+        padding-top: 10px;
+        line-height: 2;
+    }
+
+    .button_box_contactus{
+        grid-column: 3/4;
+        grid-row: 2/3;
+        background-color: white;
+        text-align: center;
+        width: 115px;
+        height: 50px;
+        margin: 0 auto;
+        border-radius: 5px;
+        font-size: 20px;
+        padding-top: 10px;
+        line-height: 2;
+    }
+    .siteplan_link{
+        text-decoration: none;
+        color: #512638;
+    }
+    .footer_contactus{
+        text-decoration: none;
+        color: #512638;
+    }
+    .facebook{
+        grid-column: 4/5;
+    }
+    .twitter{
+        grid-column: 5/6;
+    }
+    .instagram{
+        grid-column: 6/7;
+    }
+    }

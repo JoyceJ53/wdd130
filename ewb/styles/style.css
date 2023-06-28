@@ -539,7 +539,7 @@ footer .logo{
     border: #57293c solid 10px;
 }
 .cake_03_image{
-    width: 200px;
+    width: 300px;
     border: 15px solid rgb(212, 165, 165);
 }
 .c03_title{
@@ -574,20 +574,23 @@ footer .logo{
     border: #57293c solid 10px;
 }
 .cake_04_image{
-    width: 200px;
+    width: 400px;
     border: 15px solid rgb(212, 165, 165);
 }
 .c04_title{
     color: white;
+    text-shadow: 5px 5px 5px rgb(75, 41, 52);
 }
 .c04_icing_title{
-    color: rgb(228, 207, 207);
+    color: white;
+    text-shadow: 5px 5px 5px rgb(75, 41, 52);
 }
 .c04_icing{
     color: rgb(228, 207, 207);
 }
 .c04_filling_title{
-    color: rgb(228, 207, 207);
+    color: white;
+    text-shadow: 5px 5px 5px rgb(75, 41, 52);
 }
 .c04_filling{
     color: rgb(228, 207, 207);
@@ -610,20 +613,23 @@ footer .logo{
     border: #57293c solid 10px;
 }
 .cake_05_image{
-    width: 200px;
+    width: 400px;
     border: 15px solid rgb(212, 165, 165);
 }
 .c05_title{
     color: white;
+    text-shadow: 5px 5px 5px rgb(75, 41, 52);
 }
 .c05_icing_title{
-    color: rgb(228, 207, 207);
+    color: white;
+    text-shadow: 5px 5px 5px rgb(75, 41, 52);
 }
 .c05_icing{
     color: rgb(228, 207, 207);
 }
 .c05_filling_title{
-    color: rgb(228, 207, 207);
+    color: white;
+    text-shadow: 5px 5px 5px rgb(75, 41, 52);
 }
 .c05_filling{
     color: rgb(228, 207, 207);
@@ -646,20 +652,23 @@ footer .logo{
     border: #57293c solid 10px;
 }
 .cake_06_image{
-    width: 200px;
+    width: 400px;
     border: 15px solid rgb(212, 165, 165);
 }
 .c06_title{
     color: white;
+    text-shadow: 5px 5px 5px rgb(75, 41, 52);
 }
 .c06_icing_title{
-    color: rgb(228, 207, 207);
+    color: white;
+    text-shadow: 5px 5px 5px rgb(75, 41, 52);
 }
 .c06_icing{
     color: rgb(228, 207, 207);
 }
 .c06_filling_title{
-    color: rgb(228, 207, 207);
+    color: white;
+    text-shadow: 5px 5px 5px rgb(75, 41, 52);
 }
 .c06_filling{
     color: rgb(228, 207, 207);

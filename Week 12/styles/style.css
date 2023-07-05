@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@100;300;400&family=Pacifico&family=Roboto+Slab&display=swap');
+
+body{
+    background-color: #96ACB7;
+    text-align: center;
+    font-family: "Roboto Slab";
+}
+h1{
+    color: #36558F;
+    font-size: 50px;
+    padding: 20px;
+    text-shadow: 5px 5px 5px #d6deee;
+}
+.sidenav {
+    height: 100%; 
+    width: 160px; 
+    position: fixed; 
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #36558F;
+    overflow-x: hidden; 
+    padding-top: 20px;
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 30px;
+    color: #96ACB7;
+    text-shadow: 5px 5px 5px #16233b;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: white;
+    font-size: 35px;
+}
+
+.main {
+    margin-left: 160px; /* Same as the width of the sidebar */
+    padding: 0px 10px;
+}
+
+
+
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+    .sidenav a {
+        font-size: 18px;
+    }
+}
